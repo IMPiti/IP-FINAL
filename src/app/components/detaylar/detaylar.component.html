@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+      shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?">
+    <link rel="stylesheet"
+      href="https://unpkg.com/@coreui/icons/css/brand.min.css">
+  </head>
+  <body class="bg bg-body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow"
+      *ngIf="fbs.AktifUyeBilgi">
+      <div class="container-xxl ">
+        <a class=" navbar-brand" href="#"><i class="cib-duckduckgo"></i>
+          Hacıbalgil Haber</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="dropdown"
+          data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/users">Kullanıcılar</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="home">Ana Haberler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dunya">Dünyadan Haberler</a>
+            </li>
+            <li></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Spor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV</a>
+            </li>
+
+            <li class="nav-item">
+              <div class="input-group">
+                <input class="form-control" placeholder="Ara...">
+                <button class="btn btn-outline-dark" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-search" viewBox="0 0 16
+                    16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397
+                      1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0
+                      1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12
+                      6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="('home')">Geri Dön</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Full Page Image Header with Vertically Centered Content -->
+
+
+    <div class="container-sm">
+      <div class="row">
+        <!-- Blog entries-->
+        <div class="col-md-8 h-auto">
+          <!-- Featured blog post-->
+          <div class="card mb-4 mt-4">
+            <div class="card-title">
+              <img class="card-img-top" src="{{ haber.haberResim }}" alt="Image
+                not found"
+                onError="this.onerror=null;this.src='https://t3.ftcdn.net/jpg/02/23/38/64/360_F_223386472_g3ZlTnCCTRD9jtcvXML9F3HUNu91UAa0.jpg';"/>
+              <div class="card-body">
+                <div class="small text-muted">{{ haber.haberDuzenlemeTarihi |
+                  date:'dd.MM.yyyy HH:mm:ss'}}</div>
+                <h5 class="card-title text-sm-start">{{ haber.haberBasligi }}</h5>
+                <p class="text-sm-start text-muted"> Yazar : {{ haber.haberYazan
+                  }}
+                  <p class="card-text"> {{ haber.haberYazisi }}
+                    <br>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Nested row for non-featured blog posts-->
+
+            <div class="col-md-9 mt-4" *ngIf="uye | async as user">
+              <form [formGroup]="frm">
+                <div class="form-group">
+                  <div class="coment-bottom bg-white">
+                    <div class="d-flex flex-row add-comment-section mt-4 mb-4">
+                      <input type="text" class="form-control mr-3"
+                        class="form-control" formControlName="yorum"
+                        placeholder="Yorum yap">
+                      <input type="hidden" class="form-control"
+                        formControlName="id">
+                      <input type="hidden" class="form-control"
+                        formControlName="productId">
+                      <input type="hidden" class="form-control"
+                        formControlName="uyeId">
+                      <button class="btn btn-outline-dark border-1 rounded-0
+                        ms-1" type="button"
+                        (click)="YorumEkle(user.displayName!)" value="Kaydet">Gönder</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div *ngFor="let yorum of yorumlar">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex flex-start">
+                      <img class="rounded-circle shadow-1-strong me-3"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(26).webp"
+                        alt="avatar" width="40"
+                        height="40" />
+                      <div class="w-100">
+
+                        <div class="d-flex justify-content-between
+                          align-items-center mb-3">
+                          <h6 class="text-primary fw-bold mb-0">
+                            {{yorum.name}}
+                            <span class="text-dark ms-2"></span>
+                          </h6>
+                          <p class="mb-0">2 days ago</p>
+                        </div>
+                        <div class="d-flex justify-content-between
+                          align-items-center">
+                          <p class="small mb-0" style="color: #aaa;">
+                            <a href="#!" class="link-grey">Remove</a> •
+                            <a href="#!" class="link-grey">Reply</a> •
+                            <a href="#!" class="link-grey">Translate</a>
+                          </p>
+                          <div class="d-flex flex-row">
+                            <i class="fas fa-star text-warning me-2"></i>
+                            <i class="far fa-check-circle" style="color: #aaa;"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <script src="https://unpkg.com/@popperjs/core@2"></script>

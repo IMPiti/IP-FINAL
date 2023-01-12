@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userAdi": "Ahmet",
+      "userSoyad": "Hacibalgil",
+      "userKadi": "ahacibalgil",
+      "userEmail": "ahmet@mail.com",
+      "userPw": "123",
+      "userAdmin": 0,
+      "userKayitTarihi": "1670285988326"
+    },
+    {
+      "id": 2,
+      "userAdi": "admin",
+      "userSoyad": "",
+      "userKadi": "admin",
+      "userEmail": "admin@mail.com",
+      "userPw": "admin",
+      "userAdmin": "0",
+      "userKayitTarihi": "1670334744428"
+    },
+    {
+      "id": 3,
+      "userAdi": "kullanici",
+      "userSoyad": "kullanici",
+      "userKadi": "kullanici",
+      "userEmail": "kullanici@mail.com",
+      "userPw": "kullanici",
+      "userAdmin": "1",
+      "userKayitTarihi": "1670334739536"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "haberYazan": null,
+      "haberBasligi": "NATO'ya katılmak isteyen İsveç'in Türkiye'ye yönelik sözleri",
+      "categoryId": "1",
+      "haberManseti": "Finlandiya ile NATO'ya üye olmak için görüşmelere başlayan İsveç'in başbakanı Ulf Kristersson'dan şaşırtan bir açıklama geldi. Kristersson, \"Türkiye bizim yapacağımızı söylediğimiz şeyleri yaptığımızı doğrularken, bizim yapamayacağımız ya da veremeyeceğimiz sözleri de istiyor\" dedi.  Haziran ayında İspanya'nın başkenti Madrid'de düzenlenen NATO Zirvesi'nde Türkiye ile terör konusunda mücadele edeceklerine dair mutabakat imzalayan İsveç, birliğe üye olmak için Türkiye'nin bazı taleplerini yerine getirme vaatlerinde bulunmuştu.  \"TÜRKİYE BİZİM YAPAMAYACAĞIMIZ ŞEYLER İSTİYOR\" İsveç'te düzenlenen etkinlikte konuşan Kristersson, \"Türkiye bizim yapacağımızı söylediğimiz şeyleri yaptığımızı doğrularken, bizim yapamayacağımız ya da veremeyeceğimiz sözleri de istiyor\" dedi.  \"ANKARA'NIN BÜTÜN TALEPLERİNİ KARŞILAYAMAYIZ\" Başbakan ayrıca, \"Türkiye bizden İsveç'in NATO üyeliğine destek için yapamayacağımız şeyler istiyor\" ifadesini kullanırken, Ankara'nın bütün taleplerini NATO üyeliği için yerine getiremeyeceklerini söyledi.  İSVEÇ, BÜLENT KENEŞ'İ İADE ETMEMİŞTİ Cumhurbaşkanı Recep Tayyip Erdoğan, 9 Kasım'da İsveç Başbakanı Ulf Kristersson ile düzenlediği ortak basın toplantısında, \"FETÖ'den İsveç'te olan Bülent Keneş'in, bu teröristin Türkiye'ye deport edilmesi bizler için büyük önem arz ediyor.\" ifadelerini kullanmıştı. Fakat İsveç, bu teröristi Türkiye'ye iade etmemişti.",
+      "haberYazisi": "Finlandiya ile NATO'ya üye olmak için görüşmelere başlayan İsveç'in başbakanı Ulf Kristersson'dan şaşırtan bir açıklama geldi. Kristersson...",
+      "haberKayitTarihi": "1673204875723",
+      "haberDuzenlemeTarihi": "1673211574980",
+      "haberResim": "https://i.hbrcdn.com/manset/2023/01/08/nato-ya-katilmak-isteyen-isvec-in-turkiye-ye_15546962_3.jpg"
+    },
+    {
+      "id": 2,
+      "haberYazan": null,
+      "haberBasligi": "Jorge Jesus'un derbi sonrası söyledikleri",
+      "categoryId": "4",
+      "haberManseti": "Fenerbahçe Başkanı Ali Koç, Galatasaray'a 3-0 kaybedilen derbinin ardından açıklamalarda bulundu. Jorge Jesus'un \"Tek sorumlu benim.\" ifadelerine atıfta bulunan Koç, \"Teknik konuları hocaya sorun. Sevabıyla günahıyla her şeyden başkan sorumludur.\" dedi.\n\nGalatasaray'a 3-0 mağlup olarak şampiyonluk yarışında yara alan Fenerbahçe'de başkan Ali Koç karşılaşmanın ardından önemli açıklamalarda bulundu.\n\n\"RAHAT OLUN\"\nJorge Jesus'un \"Tek sorumlu benim.\" ifadelerine atıfta bulunan Koç, \"Teknik konuları hocaya sorun. Sevabıyla günahıyla her şeyden başkan sorumludur. Bir düşüş var. Her düşüşün de bir çıkışı var. Önemli bir 3 puan kaybettik. Dünyanın sonu değil. Rakibimize göre, sezonun geneline bakınca rakamlar, oyun şekli şemali güzelliği, ezici galibiyetler hep bizden yanaydı. 4-0 kazansanız da 2-1 de kazansanız 3 puan alıyorsunuz. Taraftarımızdan özür diliyoruz. Rahat olsunlar. Demoralize oldular, biz de öyle. Biz aynı kadro ve aynı hocayla düzlüğe çıkacağız. Rahat olun.\" dedi.\n\nAli Koç'un açıklamalarının devamı şöyle:\n\n\"DAHA ÇOK UZUN BİR YOL VAR\"\n\"Futbolun içinde bunlar var. Çok çok iyi başladık ama son 4 haftada düşüşe geçtik. 3 puandan öte bir şey değil. Bu skora alışık değiliz. Toparlayacak kişiler de bunlar. Bizim Galatasaray'ı 6-0, 4-0 yendiğimiz sezonlarda şampiyon olamadık. Daha çok çok uzun bir yol var. Oynadığımız futbol, alışık olduğumuz bir futbol değildi. Derbi mağlubiyeti olduğu için etkisi daha çok oldu.\n\n\"İNİŞLER ÇIKIŞLAR OLABİLİR\"\nSezon sonuna daha çok var. İnşallah biz şampiyon olacağız. Sezonlar içinde inişler çıkışlar olabilir. Böyle bir durumdayız. Bize yakışan bir durum değil. Başka takımlar da böyle iniş çıkış yapıyor. 3-4 hafta önce şampiyonluğun en büyük favorisi Fenerbahçe dedirten bu takım, bu hoca ise umutlarımızı olumsuz etkileyen de aynı takım, aynı hoca. Eski günlerimize dönüp aynı şekilde devam edeceğiz.\n\n\"YAZILAN OYUNCULARIN ÇOĞUYLA İLGİLENİYORUZ\"\n5 sezondur nasıl transfer yaptığımızı biliyorsunuz. Bir yoğurt yiyişimiz var. Yazılan oyuncuların çoğuyla ilgileniyoruz. Hiç yapmadık bugüne kadar, belki 1-2 tanedir. Transfer haberleriyle, performans düşüşünün paralellik arz ettiğini düşünmüyorum.\n\n\"FENERBAHÇE GERİ GELECEKTİR\"\n4 puan fark nedir, daha 19 hafta var. Ben burada Galatasaray'a karşı ne zaferler gördüm de galibiyetler gelmedi. Göreceğiz. Köprünün altından çok sular akacak. Ben hocama, takımıma güveniyorum. Bir basiretsizlik vardı bizde. Eski günlere dönmek bizim elimizde. 1-2 hafta içinde alıştığımız, beğendiğimiz, methiyeler düzdüğümüz Fenerbahçe geri gelecektir.\n\n\"TARAFTARIMIZ MUHTEŞEM ATMOSFER YARATTI\"\nTürkiye'deki derbilerde kötü oynadık gibi görünüyor. Avrupa maçlarında, derbi ayarındaki maçlarda muhteşem oynadık. Önemli bir 3 puan kaybettik ama dünyanın sonu değil. Taraftarlarımızdan takımımıza güvenmelerini rica ediyorum. Taraftarlarımız muhteşem atmosfer yarattı, onları evlerine mutlu gönderemediğimiz için üzgünüz.",
+      "haberYazisi": "Jorge Jesus'un derbinin ardından söylediklerini Ali Koç bir cümlesiyle boşa çıkardı.\"",
+      "haberKayitTarihi": "1673215426383",
+      "haberDuzenlemeTarihi": "1673215603411",
+      "haberResim": "https://i.hbrcdn.com/manset/2023/01/08/jorge-jesus-un-derbinin-ardindan-soylediklerini_15547398_54.jpg"
+    },
+    {
+      "id": 3,
+      "haberYazan": null,
+      "haberBasligi": "İki otobüsün kafa kafaya çarpıştı! 38 ölü, 87 yaralı var",
+      "categoryId": "5",
+      "haberManseti": "Senegal'in Kaffrine kenti yakınlarında 2 otobüsün çarpışması sonucu en az 38 kişi hayatını kaybetti, 87 kişi yaralandı.  Senegal'de meydana gelen trafik kazası ülke gündemine bomba gibi düştü. Kaffrine kenti yakınlarında yerel saatle 15.15 sıralarında 2 otobüs çarpıştı.  \"125 KURBAN VARDI, 38'İ HAYATINI KAYBETTİ\" Senegal Ulusal İtfaiyesi'nde görevli Colonel Cheikh Fall tarafından konuya ilişkin yapılan açıklamada, olayın çok büyük bir kaza olduğu belirtilirken, \"125 kurban vardı ve 38'i hayatını kaybetti\" ifadeleri kullanıldı.  YETKİLİLER İNCELEMELERDE BULUNDU Yaralıların, Kaffrine Hastanesi'ne ve yakınlardaki sağlık kuruluşlarına sevk edildiğini aktaran Fall, enkazın kaldırılmasının ardından trafiğin normal seyrine döndüğünü sözlerine ekledi. Birçok yerel yetkili olay yerine gelerek incelemelerde bulundu.",
+      "haberYazisi": "Senegal'in Kaffrine kenti yakınlarında 2 otobüsün çarpışması sonucu en az 38 kişi hayatını kaybetti, 87 kişi yaralandı.  Senegal'de meydana gelen trafik kazası ülke gündemine bomba gibi düştü. Kaffrine kenti yakınlarında yerel saatle 15.15 sıralarında 2 otobüs çarpıştı.",
+      "haberKayitTarihi": "1673217501614",
+      "haberDuzenlemeTarihi": "1673217555934",
+      "haberResim": "https://i.hbrcdn.com/manset/2023/01/08/kafa-kafaya-carpisan-iki-otobus-38-kisiye-mezar_15546726_6.jpg"
+    },
+    {
+      "id": 4,
+      "haberBasligi": "Almanya büyük bir kimyasal saldırıdan kıl payı kurtuldu!",
+      "categoryId": "5",
+      "haberManseti": "Almanya çok büyük bir felaketten kıl payı kurtuldu. Kimyasal silah ile terör saldırısı hazırlığı içerisinde olduğu öğrenilen bir adamın evine düzenlenen baskında 32 ile 72 saat arasında ölüme sebep olan siyanid ve risin isimli maddeler bulundu. İç çamaşırlarıyla apar topar gözaltına alınan şüphelinin evine giren ekiplerin oksijen maskeleri ve koruyucu elbiseler giydikleri görüldü.  Almanya'nın kuzey batısındaki Castrop-Rauxel bölgesine sabah saatlerinde düzenlenen baskında terör saldırısı hazırlığı içerisinde olduğu öğrenilen 32 yaşındaki bir İranlı ile bir başka adamın yakalandığı açıklandı.  EKİPLER KORUYUCU ELBİSELER GİYDİ Sabaha karşı terörle mücadele ekipleri tarafından gerçekleşen baskında polis ve güvenlik güçleri olası bir kimyasal terör saldırısına karşı oksijen maskeleri ve koruyucu elbiseler giydi.  EVDE KİMYASAL MADDELER BULUNDU Almanya'nın saygın medya kuruluşlarından Welt, ismi açıklanmayan adamın evinde siyanid ve risin isimli kimyasal maddeler bulunduğunu ve bunların kimyasal silah yapımında kullanılabileceğini duyurdu.  Almanya büyük bir kimyasal saldırıdan kıl payı kurtuldu! Şüpheli iç çamaşırlarıyla gözaltına alındı  \"ÇOK CİDDİ BİR TERÖR SALDIRISI HAZIRLIĞI İÇERİSİNDEYDİ\" İç çamaşırlarıyla apar topar gözaltına alınan ve binadan çıkarılan adamın sorgusunun devam ettiği belirtildi. Yetkililer, \"Gözaltına alınan kişinin devlete karşı çok ciddi bir terör saldırı hazırlığı içerisinde olduğunu tahmin ediyoruz\" açıklamasını yaptı. Yetkililer ihbarın bir yabancı istihbarat biriminden geldiğini de aktardı. Güvenlik güçlerinin zanlıyı birkaç gündür izledikleri de belirtilirken ismi açıklanmayan adamın bir hedef belirleyip belirlemediğine dair ise bir açıklama yapılmadı.  SİYANİDİN EN UFAK DOZU BİLE İNSANLARI ÖLDÜREBİLİYOR En toksik biyolojik madde olarak bilinen risin hava yoluyla bulaşabiliyor ve öldürücülüğü çok yüksek. Maruz kalınan doza göre 32 ile 72 saat arasında ölüme sebep olabiliyor.Siyanidin ise en ufak bir dozu bile insanları öldürebiliyor.",
+      "haberYazisi": "Almanya çok büyük bir felaketten kıl payı kurtuldu. Kimyasal silah ile terör saldırısı hazırlığı içerisinde olduğu öğrenilen bir adamın evine düzenlenen baskında 32 ile 72 saat arasında ölüme sebep olan siyanid ve risin isimli maddeler bulundu.",
+      "haberKayitTarihi": "1673217639729",
+      "haberDuzenlemeTarihi": "1673217639729",
+      "haberResim": "https://i.hbrcdn.com/manset/2023/01/08/ic-camasirlariyla-yakalanan-suphelinin-evinden-72_15546185_35.jpg"
+    },
+    {
+      "id": 5,
+      "haberBasligi": "Cep telefonlarında ÖTV kalkıyor mu? Hazine ve Maliye Bakanlığı bomba iddiaya yanıt verdi",
+      "categoryId": "6",
+      "haberManseti": "Sosyal medyada ortaya atılan cep telefonları ve tabletlerden alınacak ÖTV'nin kaldırılacağı iddiası kamuoyunda geniş yankı uyandırdı. Hazine ve Maliye Bakanlığı bazı haber sitelerinde de yer alan iddiaya ilişkin yaptığı açıklamada \"Gündemde böyle bir çalışma bulunmamaktadır\" ifadelerini kullandı.  Akıllı telefonlar ve tabletlerdeki Özel Tüketim Vergisi'nin ( Ötv ) kaldırılacağı iddiasına yer verilen bazı haberler özellikle sosyal medyada büyük ses getirdi.  BAKANLIKTAN İDDİALARA YANIT Hazine Ve Maliye Bakanlığı iddialara ilişkin açıklama yaptı. Bakanlıktan yapılan bilgi paylaşımında, \"'Telefon ve tabletlerden ÖTV alınmayacak' şeklinde haberler ile ilgili bilgi paylaşımı gereği duyulmuştur. Gündemde böyle bir çalışma bulunmamaktadır\" ifadeleri kullanıldı.  VERGİSİZ İPHONE 14 NE KADAR? iPhone 14 128 GB'nin Apple'ın resmi sitesinde satış fiyatı 30 bin 999 lira olarak gözüküyor. Apple'ın yaptığı bilgilendirme notuna göre bir iPhone 14 128 GB'lik akıllı telefonda 13 bin 489 lira vergi bulunuyor. Bu miktara ÖTV, KDV ve diğer iletişim vergileri dahil.  Bu rakamlar göz önüne alındığında iPhone 14'ün vergisiz fiyatı 17 bin 510 liraya düşüyor. Aynı telefonun ABD satış fiyatı ise 799 dolar yani güncel kurla 15 bin 6 TL. Vergiler çıkartıldığında bile Türkiye'de iPhone 14 ABD fiyatından 2500 lira fazlaya satılıyor.  ÖZEL İLETİŞİM VERGİSİ ARTMIŞTI 2023 yılına girerken birçok vergi miktarı yeniden değerleme oranıyla artış göstermişti. Bu kalemlerden biri de Özel İletişim Vergisi. Telefon faturalarına yansıyan bu vergi yüzde 122.93 oranında zamlanarak 117 liradan 260 TL'ye çıktı. 12 takside bölünen bu vergi her ay faturalara 21.67 Türk Lirası olarak yansıyacak.",
+      "haberYazisi": "Sosyal medyada ortaya atılan cep telefonları ve tabletlerden alınacak ÖTV'nin kaldırılacağı iddiası kamuoyunda geniş yankı uyandırdı. ",
+      "haberKayitTarihi": "1673218499419",
+      "haberDuzenlemeTarihi": "1673218499419",
+      "haberResim": "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2022/10/11/aiphone14pm-cov-sho-sel-1-1152416-1665475427.jpg?itok=zWS8Sow9"
+    }
+  ],
+  "haberler": [],
+  "categories": [
+    {
+      "id": 1,
+      "kategoriYazanId": null,
+      "kategoriAdi": "Siyaset",
+      "kategoriKayitTarihi": "1673202633705",
+      "kategoriDuzenlemeTarihi": "1673202633705"
+    },
+    {
+      "id": 2,
+      "kategoriYazanId": null,
+      "kategoriAdi": "Teknoloji",
+      "kategoriKayitTarihi": "1673202657373",
+      "kategoriDuzenlemeTarihi": "1673202657373"
+    },
+    {
+      "id": 3,
+      "kategoriYazanId": null,
+      "kategoriAdi": "Eğitim",
+      "kategoriKayitTarihi": "1673204304307",
+      "kategoriDuzenlemeTarihi": "1673204304307"
+    },
+    {
+      "id": 4,
+      "kategoriYazanId": null,
+      "kategoriAdi": "Spor",
+      "kategoriKayitTarihi": "1673204307726",
+      "kategoriDuzenlemeTarihi": "1673204307726"
+    },
+    {
+      "id": 5,
+      "kategoriYazanId": null,
+      "kategoriAdi": "Son Dakika",
+      "kategoriKayitTarihi": "1673204312010",
+      "kategoriDuzenlemeTarihi": "1673204312010"
+    },
+    {
+      "id": 6,
+      "kategoriYazanId": null,
+      "kategoriAdi": "Ekonomi",
+      "kategoriKayitTarihi": "1673218270490",
+      "kategoriDuzenlemeTarihi": "1673218270490"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

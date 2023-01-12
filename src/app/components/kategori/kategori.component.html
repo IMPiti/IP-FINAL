@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container-sm">          
+      <a class=" navbar-brand" href="#"><i class="cib-duckduckgo"></i>
+          Yönetim Paneli</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+              <a class="nav-link" href="haberler">Haber</a>
+              </li>
+              <li class="nav-item active">
+              <a class="nav-link" href="users">Kullanıcılar</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="kategoriler">Kategoriler</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="home">Geri Dön</a>
+              </li>
+              <li class="nav-item">
+
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="p-2">kategori Adi</th>
+              <th class="p-2">kategori Kayit Tarihi:</th>
+              <th class="p-2">kategori Duzenleme Tarihi</th>
+              <th class="p-2">Haberler</th>
+              <th class="p-2">Düzenle</th>
+              <th class="p-2">Sil</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let kat of kategoriler">
+                <td>{{kat.kategoriAdi}}</td>
+                <td>{{kat.kategoriKayitTarihi | date:'dd.MM.yyyy HH:mm:ss' }}</td>
+                <td>{{kat.kategoriDuzenlemeTarihi | date:'dd.MM.yyyy HH:mm:ss' }}</td>
+                <td><button class="btn btn-outline-dark border border-1  rounded-0"  [routerLink]="'/haberler,kat.katId'">Haberler</button></td>
+                <td><button class="btn btn-outline-dark border border-1  rounded-0"  (click)="Duzenle(kat, modalEkleDuzenle)">Düzenle</button></td>
+                <td><button class="btn btn-outline-dark border border-1  rounded-0"  (click)="Sil(kat, modalSil)">Sil</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+ 
+<div class="modal" tabindex="-1" #modalEkleDuzenle>
+  <div class="modal-dialog">
+    <form [formGroup]="frm" (ngSubmit)="CategoriesEkleDuzenle()">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title">{{modalBaslik}}</h5>
+          <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="form-group">
+            <label>Kategori Adı</label>
+            <input type="text" class="form-control" formControlName="kategoriAdi"> 
+            <input type="hidden" class="form-control" formControlName="id">
+            <input type="hidden" class="form-control" formControlName="katId">
+            <input type="hidden" class="form-control" formControlName="kategoriKayitTarihi">
+            <input type="hidden" class="form-control" formControlName="kategoriDuzenlemeTarihi">
+
+          </div>
+
+        </div>
+        <div class="modal-footer">
+
+          <input type="submit" class="btn btn-outline-dark border border-1  rounded-0" value="Kaydet">
+          <button type="button" class="btn btn-outline-dark border border-1  rounded-0" data-bs-dismiss="modal">Kapat</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="modal" tabindex="-1" #modalSil>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title">{{modalBaslik}}</h5>
+        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6 *ngIf="secKat">{{secKat.kategoriAdi}} adlı Kategori Silinecektir Onaylıyor musunuz?</h6>
+      </div>
+      <div class="modal-footer">
+
+        <button class="btn btn-outline-dark border border-1  rounded-0" *ngIf="secKat" (click)="KategoriSil()">Sil</button>
+        <button type="button" class="btn btn-outline-dark border border-1  rounded-0" data-bs-dismiss="modal">Kapat</button>
+      </div>
+    </div>
+
+  </div>
+</div>
